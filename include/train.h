@@ -6,6 +6,8 @@
 typedef struct {
     int train_id;
     char name[50];
+    char from[30];
+    char to[30];
     char timing[20];
     int total_seats;
     int available_seats;
@@ -13,7 +15,7 @@ typedef struct {
 
 void add_train();
 void view_trains();
-void reduce_seat_count(int train_id);
+int reduce_seats(int train_id, int count);
 
 #endif
 

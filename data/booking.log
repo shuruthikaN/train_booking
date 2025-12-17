@@ -1,12 +1,3 @@
-Wed Dec 17 11:16:05 2025
- - Booking ID 1 for dsf
-Wed Dec 17 11:16:25 2025
- - Booking ID 2 for dfv
-Wed Dec 17 11:18:23 2025
- - Booking ID 1 for shru
-Wed Dec 17 11:18:48 2025
- - Booking ID 2 for shru
-Wed Dec 17 11:19:15 2025
- - Booking ID 3 for saas
-Wed Dec 17 11:26:09 2025
- - Booking ID 1 for shuruthi
+[Wed Dec 17 12:01:18 2025] BookingID 1 | Train 123 | Passenger shuruthi | Tickets 2
+[Wed Dec 17 12:02:51 2025] BookingID 2 | Train 789 | Passenger fibo | Tickets 5
+[Wed Dec 17 12:04:33 2025] BookingID 3 | Train 456 | Passenger dude | Tickets 3

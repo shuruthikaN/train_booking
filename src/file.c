@@ -1,5 +1,3 @@
-#include "train.h"
-#include "booking.h"
 #include "file.h"
 
 void save_train(Train *t) {
@@ -19,7 +17,10 @@ void write_log(const char *msg) {
     if (!fp) return;
 
     time_t now = time(NULL);
-    fprintf(fp, "%s - %s", ctime(&now), msg);
+    char *t = ctime(&now);
+    t[strlen(t) - 1] = '\0';
+
+    fprintf(fp, "[%s] %s\n", t, msg);
     fclose(fp);
 }
 

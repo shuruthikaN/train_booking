@@ -13,6 +13,7 @@ int main() {
 
         if (choice >= 1 && choice <= 4)
             menu[choice - 1]();
+
     } while (choice != 0);
 
     return 0;
